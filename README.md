@@ -7,12 +7,14 @@ Repairing and retrofitting an old candlestick phone to be used as a headset.
 TODO: move to separate md file.
 
 - Audio sample rate for intelligibility of human speech - 300Hz to 3.4kHz => 8kHz seems good
-- TODO: make an ADC
-- TODO: make a DAC
-- TODO: make a carbon microphone
+- possibly buy this? https://www.oldphoneshop.com/products/mini-network-painless-wiring.html
+- 
+
 
 ## References
 
+- https://www.youtube.com/watch?v=IuRxX4-52q8
+- https://www.telephonecollectors.info/strombergcarlson/kellogg/kellogg_main.htm
 - [Principles of Electricity Applied to Telephone and Telegraph Work (1938)](https://www.amazon.com/Principles-Electricity-Applied-Telephone-Telegraph/dp/B000Q75WQE)
 - https://wiki.analog.com/university/courses/electronics/text/chapter-20
 - https://www.allaboutcircuits.com/textbook/digital/#chpt-13
