@@ -4,21 +4,20 @@ Repairing and retrofitting an old candlestick phone to be used as a headset.
 
 I only did this because I just wanted to hear what it would sound like in Discord.
 
-TODO: picture of phone
+TODO: finished project
 
-## Circuit
-
-TODO: picture of circuit
+TODO: sound clip
 
 ## Project Summary
 
 A brief summary of what I did in this project.
 
-### How the Phone Works
+### How Does This Phone Work?
 
 I jumped into this not knowing anything really. So I had to figure out how the phone worked on a basic level.
 
-To start the research, I think I have what is referred to as a Kellogg No 64 Candlestick (according to [this telephone collecting site](http://www.telephonecollecting.org/Bobs%20phones/Pages/Kellogg/KelloggPhones.htm)). My phone also came with an oak box [magneto](https://en.wikipedia.org/wiki/Telephone_magneto), but I won't be using it for now.
+To start the research, I think I have what is referred to as a Kellogg F9 Candlestick (according to [this telephone collecting site](http://www.telephonecollecting.org/Bobs%20phones/Pages/Kellogg/KelloggPhones.htm)). As far as age, I think it was made in 1935 based on a little signature with the date 2/25/35.
+My phone also came with a Western Electric oak box [magneto](https://en.wikipedia.org/wiki/Telephone_magneto), but I won't be using it for this project.
 
 Phones of this era used a [carbon microphone](https://en.wikipedia.org/wiki/Carbon_microphone). 
 I found a couple good resources for learning how these work:
@@ -33,19 +32,26 @@ Here is a list of old resources I got to skim through:
 - [Kellogg Patent Collection 1890-1916](https://www.telephonecollectors.info/strombergcarlson/kellogg/PDF/PATENTS_KELLOGG_ASSIGN.pdf)
 - [Kellogg Bulletin 8 - Magneto Telephones 1903](https://www.telephonecollectors.info/strombergcarlson/kellogg/PDF/1903_BLTN_8_MAG_TEL_SETS.pdf)
 - [Kellogg Bulletin 38 - Magneto Telephones 1909](https://www.telephonecollectors.info/strombergcarlson/kellogg/PDF/1909_BLTN_38_MAG_TEL_SETS.pdf)
-- [Transmitter Wiring #229](docs/229c_tl.pdf) and [Transmitter Wiring #323](docs/323_tl.pdf).
+- [Transmitter Wiring #229](docs/229c_tl.pdf) and [Transmitter Wiring #323](docs/323_tl.pdf)
 - [Kellogg Wiring Diagrams](https://www.telephonecollectors.info/strombergcarlson/kellogg/PDF/DIAGRAMS.pdf)
 - [Telephone Archive - Kellogg](http://www.telephonearchive.com/phones/index.html)
 - Supply voltage ended up being two of these [1.5v dry cells]((https://collection.maas.museum/object/214017) in series. I ended up bumping it up to 3.3v
 
 I also downloaded the resources I used and put them in [docs/](docs/) so they never get lost if that site goes down.
 
-### Repairing
+### Repairs
 
-Surprisingly, the only thing I really had to repair was a few broken solder joints in the receiver and transmitter. 
+I removed all the magneto connections and old frayed cloth cable. I bought a new cloth cable and re-wired the phone how I needed it.
+
+Surprisingly, the only thing I actually had to repair was a few broken solder joints in the receiver and transmitter. 
 I was able to fairly quickly supply voltage and see my voice show up on my oscilloscope...albeit as a very low signal.
 
+TODO: picture of phone base
+
 ### The Rest
+
+The secondary goal of this project was to use all the original phone hardware. I also wanted to make this easily removable just in case I want to actually
+hook this phone up to a landline one day.
 
 For some reason I thought I was going to need to build some DAC (digital to analog conversion) and ADC (analog to digital conversion) circuits to get this working.
 So, I found the following resources:
@@ -62,7 +68,21 @@ Again, I don't know what I'm doing so I just did trial and error.
 
 To finish the project I finalized my circuit, soldered it to protoboard, and designed/3D printed an enclosure.
 
+TODO: protoboard picture
+
+TODO: enclosure picture w/o lid
+
+TODO: finished project
+
+## Circuit
+
+I wasn't ready to actually design and order a full PCB for this. But, I put together some basic
+circuits on [EasyEDA](https://easyeda.com/). Exported circuit images can be found in [eda/](eda/).
+
+![eda/power.png](eda/power.png)
+
+![eda/amplifier.png](eda/amplifier.png)
+
 ## References
 
 Listed above in individual sections.
-
