@@ -1,10 +1,11 @@
 # candlestick-mic
 
-Repairing and retrofitting an old candlestick phone to be used as a headset.
+Repairing an old candlestick phone to be used as a headset.
 
-I only did this because I just wanted to hear what it would sound like in Discord.
+I only did this because I wanted to see if this was possible 
+and I wanted to hear what it would sound like in Discord.
 
-TODO: finished project
+![finished project](docs/images/project_finished.jpg)
 
 TODO: sound clip
 
@@ -17,7 +18,11 @@ A brief summary of what I did in this project.
 I jumped into this not knowing anything really. So I had to figure out how the phone worked on a basic level.
 
 To start the research, I think I have what is referred to as a Kellogg F9 Candlestick (according to [this telephone collecting site](http://www.telephonecollecting.org/Bobs%20phones/Pages/Kellogg/KelloggPhones.htm)). As far as age, I think it was made in 1935 based on a little signature with the date 2/25/35.
-My phone also came with a Western Electric oak box [magneto](https://en.wikipedia.org/wiki/Telephone_magneto), but I won't be using it for this project.
+My phone also came with a Western Electric oak ringer box [magneto](https://en.wikipedia.org/wiki/Telephone_magneto), but I won't be using it for this project.
+
+![phone with ringer box](docs/images/phone_with_ringerbox.jpg)
+
+![patent date](docs/images/phone_patd.jpg)
 
 Phones of this era used a [carbon microphone](https://en.wikipedia.org/wiki/Carbon_microphone). 
 I found a couple good resources for learning how these work:
@@ -35,7 +40,7 @@ Here is a list of old resources I got to skim through:
 - [Transmitter Wiring #229](docs/229c_tl.pdf) and [Transmitter Wiring #323](docs/323_tl.pdf)
 - [Kellogg Wiring Diagrams](https://www.telephonecollectors.info/strombergcarlson/kellogg/PDF/DIAGRAMS.pdf)
 - [Telephone Archive - Kellogg](http://www.telephonearchive.com/phones/index.html)
-- Supply voltage ended up being two of these [1.5v dry cells]((https://collection.maas.museum/object/214017) in series. I ended up bumping it up to 3.3v
+- Supply voltage ended up being two of these [1.5v dry cells](https://collection.maas.museum/object/214017) in series. I ended up bumping it up to 3.3v for simplicity.
 
 I also downloaded the resources I used and put them in [docs/](docs/) so they never get lost if that site goes down.
 
@@ -46,7 +51,7 @@ I removed all the magneto connections and old frayed cloth cable. I bought a new
 Surprisingly, the only thing I actually had to repair was a few broken solder joints in the receiver and transmitter. 
 I was able to fairly quickly supply voltage and see my voice show up on my oscilloscope...albeit as a very low signal.
 
-TODO: picture of phone base
+![phone bottom](docs/images/phone_bottom.jpg)
 
 ### The Rest
 
@@ -68,11 +73,7 @@ Again, I don't know what I'm doing so I just did trial and error.
 
 To finish the project I finalized my circuit, soldered it to protoboard, and designed/3D printed an enclosure.
 
-TODO: protoboard picture
-
-TODO: enclosure picture w/o lid
-
-TODO: finished project
+![enclosure_open](docs/images/enclosure_open.jpg)
 
 ## Circuit
 
@@ -82,6 +83,35 @@ circuits on [EasyEDA](https://easyeda.com/). Exported circuit images can be foun
 ![eda/power.png](eda/power.png)
 
 ![eda/amplifier.png](eda/amplifier.png)
+
+## Component List
+
+I'm still not experienced enough to put together proper EDA/CAD with a BOM, but here are the
+components I used.
+
+- 1 x six position dual row screw terminal block
+- 4 x two position screw terminal
+- 8 x M2x8 machine screws
+- 2 x M4x10 machine screws
+- 2 x 3.5mm mini stereo female socket
+- 1 x 2.1mm barrel jack
+- 1 x red LED
+- 1 x toggle switch
+- 1 x LM386 IC
+- 1 x DIP-8 socket
+- 1 x LD1117V33 voltage regulator
+- 2 x 10KΩ potentiometers
+- 1 x 100KΩ resistor
+- 1 x 10KΩ resistor
+- 1 x 4.7KΩ resistor
+- 1 x 100Ω resistor
+- 1 x 10Ω resistor
+- 1 x 0.47μF ceramic capacitor
+- 2 x 0.1μF ceramic capacitor
+- 1 x 0.01μF ceramic capacitor
+- 1 x 220μF electrolytic capacitor
+- 2 x 100μF electrolytic capacitor
+- 2 x 10μF electrolytic capacitor
 
 ## References
 
