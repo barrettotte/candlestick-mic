@@ -7,7 +7,7 @@ and I wanted to hear what it would sound like in Discord.
 
 ![finished project](assets/project_finished.jpg)
 
-Test recording in [assets/recording.wav](assets/recording.wav) (spoiler it sounds like an intercom)
+Test recording located at [assets/recording.wav](assets/recording.wav) (spoiler it just sounds like an intercom).
 
 ## Project Summary
 
@@ -72,6 +72,8 @@ After implementing that, I just had to play around with various capacitors to el
 Again, I don't know what I'm doing so I just did trial and error.
 
 To finish the project I finalized my circuit, soldered it to protoboard, and designed/3D printed an enclosure.
+
+To use it, I just plug in the headphone and microphone jack to the front panel of my computer.
 
 ![enclosure_open](assets/enclosure_open.jpg)
 
