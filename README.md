@@ -9,6 +9,8 @@ and I wanted to hear what it would sound like in Discord.
 
 Test recording located at [assets/recording.wav](assets/recording.wav) (spoiler it just sounds like an intercom).
 
+![](assets/recording.mp4)
+
 ## Project Summary
 
 A brief summary of what I did in this project.
