@@ -8,8 +8,7 @@ and I wanted to hear what it would sound like in Discord.
 ![finished project](assets/project_finished.jpg)
 
 Test recording located at [assets/recording.wav](assets/recording.wav) (spoiler it just sounds like an intercom).
-
-![](assets/recording.mp4)
+Or listen to it [here](https://raw.githubusercontent.com/barrettotte/candlestick-mic/master/assets/recording.mp4)
 
 ## Project Summary
 
