@@ -5,9 +5,9 @@ Repairing an old candlestick phone to be used as a headset.
 I only did this because I wanted to see if this was possible 
 and I wanted to hear what it would sound like in Discord.
 
-![finished project](docs/images/project_finished.jpg)
+![finished project](assets/project_finished.jpg)
 
-TODO: sound clip
+Test recording in [assets/recording.wav](assets/recording.wav) (spoiler it sounds like an intercom)
 
 ## Project Summary
 
@@ -20,9 +20,9 @@ I jumped into this not knowing anything really. So I had to figure out how the p
 To start the research, I think I have what is referred to as a Kellogg F9 Candlestick (according to [this telephone collecting site](http://www.telephonecollecting.org/Bobs%20phones/Pages/Kellogg/KelloggPhones.htm)). As far as age, I think it was made in 1935 based on a little signature with the date 2/25/35.
 My phone also came with a Western Electric oak ringer box [magneto](https://en.wikipedia.org/wiki/Telephone_magneto), but I won't be using it for this project.
 
-![phone with ringer box](docs/images/phone_with_ringerbox.jpg)
+![phone with ringer box](assets/phone_with_ringerbox.jpg)
 
-![patent date](docs/images/phone_patd.jpg)
+![patent date](assets/phone_patd.jpg)
 
 Phones of this era used a [carbon microphone](https://en.wikipedia.org/wiki/Carbon_microphone). 
 I found a couple good resources for learning how these work:
@@ -51,7 +51,7 @@ I removed all the magneto connections and old frayed cloth cable. I bought a new
 Surprisingly, the only thing I actually had to repair was a few broken solder joints in the receiver and transmitter. 
 I was able to fairly quickly supply voltage and see my voice show up on my oscilloscope...albeit as a very low signal.
 
-![phone bottom](docs/images/phone_bottom.jpg)
+![phone bottom](assets/phone_bottom.jpg)
 
 ### The Rest
 
@@ -73,7 +73,7 @@ Again, I don't know what I'm doing so I just did trial and error.
 
 To finish the project I finalized my circuit, soldered it to protoboard, and designed/3D printed an enclosure.
 
-![enclosure_open](docs/images/enclosure_open.jpg)
+![enclosure_open](assets/enclosure_open.jpg)
 
 ## Circuit
 
@@ -101,16 +101,14 @@ components I used.
 - 1 x DIP-8 socket
 - 1 x LD1117V33 voltage regulator
 - 2 x 10KΩ potentiometers
-- 1 x 100KΩ resistor
 - 1 x 10KΩ resistor
-- 1 x 4.7KΩ resistor
 - 1 x 100Ω resistor
 - 1 x 10Ω resistor
-- 1 x 0.47μF ceramic capacitor
+- 1 x 0.047μF ceramic capacitor
 - 2 x 0.1μF ceramic capacitor
 - 1 x 0.01μF ceramic capacitor
-- 1 x 220μF electrolytic capacitor
-- 2 x 100μF electrolytic capacitor
+- 1 x 1000μF electrolytic capacitor
+- 1 x 100μF electrolytic capacitor
 - 2 x 10μF electrolytic capacitor
 
 ## References
