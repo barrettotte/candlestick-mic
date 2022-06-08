@@ -1,1 +1,6 @@
 *.md linguist-detectable=true
+
+# kicad
+*.kicad_pcb linguist-detectable=true
+*.sch linguist-detectable=true
+*.pro linguist-detectable=true
